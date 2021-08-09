@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="395px" height="208px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 71.235 37.569"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:url(#id0)}
+    .fil0 {fill:url(#id1)}
+    .fil1 {fill:url(#id2)}
+    .fil2 {fill:url(#id3)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="35.744" y1="23.425" x2="35.744" y2="37.569">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3DC4B4"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#218A7E"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="28.48" y1="7.965" x2="28.48" y2="14.754">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="45.849" y1="2.5" x2="45.849" y2="9.061">
+  </linearGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1.21693 -3.38406 3.38406 -1.21693 -32 344)" cx="66.953" cy="53.179" r="7.883" fx="66.953" fy="53.179">
+   <stop offset="0" style="stop-opacity:1; stop-color:#EA7050"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E9C46A"/>
+  </radialGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M24.18 14.754l0 0c-4.179,-0.002 -8.357,-0.005 -12.534,-0.005 -1.296,-1.956 -0.107,-5.905 3.972,-4.856 -0.235,-2.801 3.124,-4.732 5.672,-3.217 0.764,-0.945 1.891,-1.332 3.002,-1.296 1.112,-0.036 2.238,0.351 3.003,1.296 2.548,-1.515 5.907,0.416 5.671,3.217 4.079,-1.049 5.268,2.9 3.972,4.856 -4.177,0 -8.355,0.003 -12.534,0.005l0 0 -0.112 0 -0.112 0z"/>
+  <path class="fil1" d="M39.654 9.061c-1.252,-1.889 -0.103,-7.116 3.838,-6.102 0.067,-2.749 4.505,-4.133 6.47,-1.704 2.462,-1.464 5.707,0.401 5.479,3.108 3.941,-1.014 5.09,2.801 3.838,4.69 -6.539,0 -13.079,0.008 -19.625,0.008z"/>
+  <circle class="fil2" cx="58.641" cy="24.969" r="12.593"/>
+  <path class="fil3" d="M24.18 20.965l0 0.022c-0.491,0.69 -0.898,1.501 -1.188,2.438 -4.274,-5.746 -13.276,-2.423 -13.427,3.759 -8.724,-2.245 -11.267,6.202 -8.496,10.385l23.118 0 11.464 0 23.118 0c2.771,-4.183 0.228,-12.63 -8.497,-10.385 -0.151,-6.182 -9.152,-9.505 -13.426,-3.759 -0.291,-0.937 -0.697,-1.748 -1.189,-2.438l0 -0.022c-0.112,-0.149 -0.229,-0.293 -0.35,-0.431 -1.404,-1.68 -3.365,-2.5 -5.334,-2.498 -0.018,-0.001 -0.036,0 -0.054,0 -0.018,0 -0.036,-0.001 -0.054,0 -1.969,-0.002 -3.93,0.818 -5.334,2.498 -0.121,0.138 -0.238,0.282 -0.351,0.431z"/>
+ </g>
+</svg>

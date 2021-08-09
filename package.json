@@ -1,0 +1,25 @@
+{
+  "name": "@bryntum/siesta",
+  "version": "6.0.0-alpha-3",
+  "description": "Stress-free JavaScript/TypeScript testing and benchmarking tool",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "bin": {},
+  "scripts": {
+    "sass": "npx sass --watch css/"
+  },
+  "keywords": [],
+  "author": "Nickolay Platonov, Bryntum",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.21.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/sass": "^1.16.0",
+    "sass": "^1.32.11",
+    "bulma": "^0.9.3"
+  }
+}
