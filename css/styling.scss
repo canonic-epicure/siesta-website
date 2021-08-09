@@ -40,6 +40,10 @@ body {
         color : $white;
         background-color: $deccent;
     }
+
+    &.content {
+        top: 16px;
+    }
 }
 
 .content {
