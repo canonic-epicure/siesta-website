@@ -2,36 +2,110 @@
 @use './colors.scss' as *;
 
 body {
-    background-color: $deccent;
 }
 
-
-.header {
-    background-color: $deccent;
-
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-
+.header-wrapper {
+    //position: absolute;
+    //width: 2500px;
+    //left: -500px;
+    //z-index: -1;
+    //
+    //left: 50%;
+    //top: 50%;
+    //transform: translateY(-50%) translateX(-50%);
+    background-image: url("../images/header/header_background_waves.svg");
+    background-position: left calc(50% + 70px) top 0%;
+    background-repeat: no-repeat;
+    background-size: 2300px;
     padding-bottom: 30px;
 }
 
+//.header-wrapper-background {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    position: absolute;
+//
+//    & > img {
+//        width : 4000px;
+//    }
+//}
 
-.content-wrapper-1 {
-    background-color: #fefefe;
-    margin-bottom: 30px;
+.header {
+    width: 1024px;
+    height: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+    position: relative;
+    top: 40px;
 }
 
-.content-1 {
+.content {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
 
-    font-size: xx-large;
+    & h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    & p {
+        margin: 0.5em;
+        font-size: x-large;
+    }
 }
 
-.browser_logo {
+.content-split {
+    display: flex;
+    align-items: stretch;
+}
+
+.content-left {
+    flex : 1;
+    margin: 20px;
+}
+
+.content-right {
+    flex : 1;
+    margin: 20px;
+}
+
+
+.content-ubiquitous {
+    text-align: center;
+
+    & p {
+        font-size: xx-large;
+    }
+}
+
+.content-wrapper-ubiquitous {
+    background-color: #fefefe;
+}
+
+.content-wrapper-2 {
+    background-color: $primary_pass;
+}
+
+.content-wrapper-3 {
+    background-color: $secondary_pass;
+}
+
+.footer-wrapper {
+    color: $white;
+    background-color: $deccent;
+}
+
+.footer p {
+    font-size: medium;
+}
+
+.logo {
     height: 80px;
 }

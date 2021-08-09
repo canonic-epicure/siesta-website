@@ -11,7 +11,9 @@ $deccent: #264653 !default;
 
 $accent : #bd69ee !default;
 $gray: #808080 !default;
+$gray_lighter: #dbdbdb !default;
 $black: #000000 !default;
+$white: #fefefe !default;
 
 $primary_pass_lighter: color.scale($primary_pass, $lightness: 25%) !default;
 $primary_pass_lighter_lighter: color.scale($primary_pass, $lightness: 50%) !default;
@@ -31,4 +33,3 @@ $deccent_lighter: color.scale($deccent, $lightness: 25%) !default;
 $deccent_lighter_2: color.scale($deccent, $lightness: 50%) !default;
 $deccent_lighter_3: color.scale($deccent, $lightness: 75%) !default;
 
-$gray_lighter: #dbdbdb !default;
