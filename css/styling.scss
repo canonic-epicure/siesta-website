@@ -1,18 +1,12 @@
+@use "sass:color";
 @use './reset.scss';
 @use './colors.scss' as *;
 
 body {
+    color: color.scale($deccent, $lightness: -50%);
 }
 
 .header-wrapper {
-    //position: absolute;
-    //width: 2500px;
-    //left: -500px;
-    //z-index: -1;
-    //
-    //left: 50%;
-    //top: 50%;
-    //transform: translateY(-50%) translateX(-50%);
     background-image: url("../images/header/header_background_waves.svg");
     background-position: left calc(50% + 70px) top 0%;
     background-repeat: no-repeat;
@@ -20,16 +14,6 @@ body {
     padding-bottom: 30px;
 }
 
-//.header-wrapper-background {
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    position: absolute;
-//
-//    & > img {
-//        width : 4000px;
-//    }
-//}
 
 .header {
     width: 1024px;
@@ -40,6 +24,22 @@ body {
 
     position: relative;
     top: 40px;
+
+    & .tbar {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    & .tbar .icon {
+        color : $deccent_lighter;
+        transition: color 0.2s ease-in-out;
+    }
+
+    & .tbar .icon:hover {
+        color : $white;
+        background-color: $deccent;
+    }
 }
 
 .content {
@@ -71,6 +71,11 @@ body {
     margin: 20px;
 }
 
+.content-center {
+    flex : 1;
+    margin: 20px;
+}
+
 .content-right {
     flex : 1;
     margin: 20px;
@@ -89,21 +94,34 @@ body {
     background-color: #fefefe;
 }
 
-.content-wrapper-2 {
+.content-wrapper-performance {
     background-color: $primary_pass;
 }
 
-.content-wrapper-3 {
-    background-color: $secondary_pass;
+.content-wrapper-ergonomics {
+    //background-color: $secondary_pass;
 }
+
+.content-wrapper-getting-started {
+    text-align: center;
+    background-color: $secondary_pass;
+    //background-color: $primary_fail_lighter;
+}
+
 
 .footer-wrapper {
     color: $white;
     background-color: $deccent;
 }
 
-.footer p {
-    font-size: medium;
+.footer {
+    background: url("../images/footer/siesta_logo_white_on_transparent.svg") no-repeat right center;
+    background-size: contain;
+
+
+    & p {
+        font-size: medium;
+    }
 }
 
 .logo {
