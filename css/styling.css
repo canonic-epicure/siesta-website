@@ -1,0 +1,235 @@
+@import '../fonts/fontawesome5/css/all.min.css';
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+td:not([align]),
+th:not([align]) {
+  text-align: inherit;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #fefefe;
+  font-family: "Lato-Light";
+}
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../fonts/lato/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(../fonts/opensans/OpenSans-Light.ttf);
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+body {
+  color: #13232a;
+}
+
+.header-wrapper {
+  background-image: url("../images/header/header_background_waves.svg");
+  background-position: left calc(50% + 70px) top 0%;
+  background-repeat: no-repeat;
+  background-size: 2300px;
+  padding-bottom: 30px;
+}
+
+.header {
+  width: 1024px;
+  height: 425px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  position: relative;
+  top: 40px;
+}
+.header .tbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header .tbar .icon {
+  color: #457e96;
+  transition: color 0.2s ease-in-out;
+}
+.header .tbar .icon:hover {
+  color: #fefefe;
+  background-color: #264653;
+}
+.header.content {
+  top: 16px;
+}
+
+.content {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.content h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.content p {
+  margin: 0.5em;
+  font-size: x-large;
+}
+
+.content-split {
+  display: flex;
+  align-items: stretch;
+}
+
+.content-left {
+  flex: 1;
+  margin: 20px;
+}
+
+.content-center {
+  flex: 1;
+  margin: 20px;
+}
+
+.content-right {
+  flex: 1;
+  margin: 20px;
+}
+
+.content-ubiquitous {
+  text-align: center;
+}
+.content-ubiquitous p {
+  font-size: xx-large;
+}
+
+.content-wrapper-ubiquitous {
+  background-color: #fefefe;
+}
+
+.content-wrapper-performance {
+  background-color: #2a9d8f;
+}
+
+.content-wrapper-getting-started {
+  text-align: center;
+  background-color: #e9c46a;
+}
+
+.footer-wrapper {
+  color: #fefefe;
+  background-color: #264653;
+}
+
+.footer {
+  background: url("../images/footer/siesta_logo_white_on_transparent.svg") no-repeat right center;
+  background-size: contain;
+}
+.footer p {
+  font-size: medium;
+}
+
+.logo {
+  height: 80px;
+}
+
+/*# sourceMappingURL=styling.css.map */
