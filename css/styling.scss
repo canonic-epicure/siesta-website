@@ -12,6 +12,44 @@ body {
     background-repeat: no-repeat;
     background-size: 2300px;
     padding-bottom: 30px;
+    position: relative;
+
+    & .background-left {
+        z-index: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: calc(50% + 950px);
+        bottom: 0;
+        background: linear-gradient(
+            to top,
+            #318483 0px,
+            #318483 122px,
+            #2e616b 122px,
+            #2e616b 186px,
+            #29525e 186px,
+            #29525e 220px,
+            #264653 220px,
+            #264653 100%
+        );
+    }
+    & .background-right {
+        z-index: -1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: calc(50% + 1050px);
+        bottom: 0;
+        background: linear-gradient(
+            to top,
+            #318483 0px,
+            #318483 117px,
+            #2e616b 117px,
+            #2e616b 200px,
+            #264653 200px,
+            #264653 100%
+        );
+    }
 }
 
 
