@@ -108,10 +108,54 @@ body {
     //background-color: $secondary_pass;
 }
 
+
 .content-wrapper-getting-started {
     text-align: center;
     background-color: $secondary_pass;
-    //background-color: $primary_fail_lighter;
+
+    $offset: 3ch;
+
+    & .content-center .get_started_link {
+        span {
+            position: relative;
+            left: -55px;
+        }
+
+        img:nth-child(1) {
+            position: relative;
+            z-index: 100;
+        }
+        img:nth-child(2) {
+            position: absolute;
+            z-index: 90;
+            left: $offset;
+        }
+        img:nth-child(3) {
+            position: absolute;
+            z-index: 80;
+            left: $offset * 2;
+        }
+        img:nth-child(4) {
+            position: absolute;
+            z-index: 70;
+            left: $offset * 3;
+        }
+    }
+
+    .get_started_link {
+        //display: inline-block;
+        //position: relative;
+        //padding-bottom: 80px;
+
+        .logo {
+            //display: inline-block;
+            //position: absolute;
+            //left: 0;
+            //top: 1.1em;
+            min-height: 80px;
+            min-width: 80px;
+        }
+    }
 }
 
 

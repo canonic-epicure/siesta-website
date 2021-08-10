@@ -216,6 +216,33 @@ body {
   text-align: center;
   background-color: #e9c46a;
 }
+.content-wrapper-getting-started .content-center .get_started_link span {
+  position: relative;
+  left: -55px;
+}
+.content-wrapper-getting-started .content-center .get_started_link img:nth-child(1) {
+  position: relative;
+  z-index: 100;
+}
+.content-wrapper-getting-started .content-center .get_started_link img:nth-child(2) {
+  position: absolute;
+  z-index: 90;
+  left: 3ch;
+}
+.content-wrapper-getting-started .content-center .get_started_link img:nth-child(3) {
+  position: absolute;
+  z-index: 80;
+  left: 6ch;
+}
+.content-wrapper-getting-started .content-center .get_started_link img:nth-child(4) {
+  position: absolute;
+  z-index: 70;
+  left: 9ch;
+}
+.content-wrapper-getting-started .get_started_link .logo {
+  min-height: 80px;
+  min-width: 80px;
+}
 
 .footer-wrapper {
   color: #fefefe;
