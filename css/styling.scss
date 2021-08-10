@@ -101,7 +101,7 @@ body {
 }
 
 .content-wrapper-performance {
-    background-color: $primary_pass;
+    background-color: color.scale($primary_pass, $lightness: 75%);
 }
 
 .content-wrapper-ergonomics {
