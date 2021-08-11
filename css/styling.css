@@ -204,16 +204,25 @@ body {
 .content-left {
   flex: 1;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content-center {
   flex: 1;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content-right {
   flex: 1;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content-ubiquitous {

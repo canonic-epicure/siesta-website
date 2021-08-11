@@ -110,19 +110,28 @@ body {
     align-items: stretch;
 }
 
+@mixin center_content_vertically {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .content-left {
     flex : 1;
     margin: 20px;
+    @include center_content_vertically()
 }
 
 .content-center {
     flex : 1;
     margin: 20px;
+    @include center_content_vertically()
 }
 
 .content-right {
     flex : 1;
     margin: 20px;
+    @include center_content_vertically()
 }
 
 
