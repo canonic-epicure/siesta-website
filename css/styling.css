@@ -231,6 +231,9 @@ body {
 .content-ubiquitous p {
   font-size: xx-large;
 }
+.content-ubiquitous p:last-child .logo {
+  margin: 0 0.4em;
+}
 
 .content-wrapper-ubiquitous {
   background-color: #fefefe;

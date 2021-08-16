@@ -141,6 +141,10 @@ body {
     & p {
         font-size: xx-large;
     }
+
+    & p:last-child .logo {
+        margin: 0 0.4em;
+    }
 }
 
 .content-wrapper-ubiquitous {
