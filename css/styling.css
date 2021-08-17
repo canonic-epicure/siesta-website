@@ -166,6 +166,9 @@ body {
   right: 0;
   top: 0;
 }
+.header .tbar a {
+  margin-left: 1em;
+}
 .header .tbar .icon {
   color: #457e96;
   transition: color 0.2s ease-in-out;
@@ -287,6 +290,9 @@ body {
 }
 .footer p {
   font-size: medium;
+}
+.footer a {
+  margin-left: 10em;
 }
 
 .logo {

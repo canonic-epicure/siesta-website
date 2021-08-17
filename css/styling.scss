@@ -68,6 +68,10 @@ body {
         position: absolute;
         right: 0;
         top: 0;
+
+        & a {
+            margin-left: 1em;
+        }
     }
 
     & .tbar .icon {
@@ -216,6 +220,10 @@ body {
 
     & p {
         font-size: medium;
+    }
+
+    & a {
+        margin-left: 10em;
     }
 }
 
