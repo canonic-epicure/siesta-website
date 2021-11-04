@@ -288,8 +288,8 @@ body {
   left: 9ch;
 }
 .content-wrapper-getting-started .get_started_link .logo {
-  min-height: 80px;
-  min-width: 80px;
+  min-height: 5rem;
+  min-width: 5rem;
 }
 
 .footer-wrapper {
@@ -321,6 +321,26 @@ body {
 @media screen and (min-width: 800px) and (max-width: 1024px) {
   html {
     font-size: 12.5px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header-wrapper .background-left {
+    display: none;
+  }
+  .header-wrapper .background-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 10px;
   }
 
   .content {

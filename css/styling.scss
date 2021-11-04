@@ -215,8 +215,8 @@ body {
 
     .get_started_link {
         .logo {
-            min-height: 80px;
-            min-width: 80px;
+            min-height: 5rem;
+            min-width: 5rem;
         }
     }
 }
@@ -267,13 +267,31 @@ body {
     }
 
     .header-wrapper {
-        //background-image: url("../images/header/header_background_waves.svg");
-        ////background-position: left calc(50%) top 0%;
-        //background-repeat: no-repeat;
-        //background-size: 2300px;
-        //padding-bottom: 30px;
-        //position: relative;
+        & .background-left {
+            display: none;
+        }
+        & .background-right {
+            display: none;
+        }
+    }
 
+}
+
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 10px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-wrapper {
         & .background-left {
             display: none;
         }
