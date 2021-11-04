@@ -2,8 +2,25 @@
 @use './reset.scss';
 @use './colors.scss' as *;
 
+:root {
+    --scrollbar-width: 15px;
+
+    --content-width: calc(1024px - var(--scrollbar-width))
+}
+
+html {
+    font-size: 16px;
+}
+
+
 body {
     color: color.scale($deccent, $lightness: -50%);
+    overflow-x: hidden;
+}
+
+
+.content-wrapper {
+    padding: 1em;
 }
 
 .header-wrapper {
@@ -52,9 +69,8 @@ body {
     }
 }
 
-
 .header {
-    width: 1024px;
+    width: var(--content-width);
     height: 425px;
     margin-left: auto;
     margin-right: auto;
@@ -90,21 +106,21 @@ body {
 }
 
 .content {
-    width: 1024px;
+    width: var(--content-width);
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
     position: relative;
 
     & h1 {
-        font-size: xx-large;
+        font-size: 2rem;
         font-weight: bolder;
     }
 
     & p {
         margin: 0.5em 0;
-        font-size: x-large;
+        font-size: 1.5rem;
         line-height: 1.5em;
     }
 }
@@ -122,19 +138,19 @@ body {
 
 .content-left {
     flex : 1;
-    margin: 20px;
+    margin: 1.25rem;
     @include center_content_vertically()
 }
 
 .content-center {
     flex : 1;
-    margin: 20px;
+    margin: 1.25rem;
     @include center_content_vertically()
 }
 
 .content-right {
     flex : 1;
-    margin: 20px;
+    margin: 1.25rem;
     @include center_content_vertically()
 }
 
@@ -143,7 +159,7 @@ body {
     text-align: center;
 
     & p {
-        font-size: xx-large;
+        font-size: 2rem;
     }
 
     & p:last-child .logo {
@@ -212,21 +228,58 @@ body {
 }
 
 .footer {
-    padding: 20px 0;
+    position: relative;
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-    background: url("../images/footer/siesta_logo_white_on_transparent.svg") no-repeat right center;
-    background-size: contain;
+    height: 3.5rem;
 
+    font-size: 1rem;
 
-    & p {
-        font-size: medium;
+    & > a {
+        margin-left: 3em;
+        margin-right: 3em;
     }
 
-    & a {
-        margin-left: 10em;
+    & .footer-logo {
+        height: 2rem;
     }
 }
 
 .logo {
-    height: 80px;
+    height: 5rem;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    html {
+        font-size: 12.5px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-wrapper {
+        //background-image: url("../images/header/header_background_waves.svg");
+        ////background-position: left calc(50%) top 0%;
+        //background-repeat: no-repeat;
+        //background-size: 2300px;
+        //padding-bottom: 30px;
+        //position: relative;
+
+        & .background-left {
+            display: none;
+        }
+        & .background-right {
+            display: none;
+        }
+    }
+
 }

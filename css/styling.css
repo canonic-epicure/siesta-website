@@ -120,8 +120,22 @@ a {
   text-decoration-style: dotted;
 }
 
+:root {
+  --scrollbar-width: 15px;
+  --content-width: calc(1024px - var(--scrollbar-width)) ;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
   color: #13232a;
+  overflow-x: hidden;
+}
+
+.content-wrapper {
+  padding: 1em;
 }
 
 .header-wrapper {
@@ -152,7 +166,7 @@ body {
 }
 
 .header {
-  width: 1024px;
+  width: var(--content-width);
   height: 425px;
   margin-left: auto;
   margin-right: auto;
@@ -182,20 +196,20 @@ body {
 }
 
 .content {
-  width: 1024px;
+  width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
   position: relative;
 }
 .content h1 {
-  font-size: xx-large;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .content p {
   margin: 0.5em 0;
-  font-size: x-large;
+  font-size: 1.5rem;
   line-height: 1.5em;
 }
 
@@ -206,7 +220,7 @@ body {
 
 .content-left {
   flex: 1;
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,7 +228,7 @@ body {
 
 .content-center {
   flex: 1;
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -222,7 +236,7 @@ body {
 
 .content-right {
   flex: 1;
-  margin: 20px;
+  margin: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -232,7 +246,7 @@ body {
   text-align: center;
 }
 .content-ubiquitous p {
-  font-size: xx-large;
+  font-size: 2rem;
 }
 .content-ubiquitous p:last-child .logo {
   margin: 0 0.4em;
@@ -284,19 +298,45 @@ body {
 }
 
 .footer {
-  padding: 20px 0;
-  background: url("../images/footer/siesta_logo_white_on_transparent.svg") no-repeat right center;
-  background-size: contain;
+  position: relative;
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+  font-size: 1rem;
 }
-.footer p {
-  font-size: medium;
+.footer > a {
+  margin-left: 3em;
+  margin-right: 3em;
 }
-.footer a {
-  margin-left: 10em;
+.footer .footer-logo {
+  height: 2rem;
 }
 
 .logo {
-  height: 80px;
+  height: 5rem;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  html {
+    font-size: 12.5px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header-wrapper .background-left {
+    display: none;
+  }
+  .header-wrapper .background-right {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styling.css.map */
