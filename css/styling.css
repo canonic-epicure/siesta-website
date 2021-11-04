@@ -152,15 +152,17 @@ body {
 }
 .header-wrapper .background-left {
   z-index: -1;
+  margin-bottom: 15px;
   position: absolute;
   left: 0;
   top: 0;
   right: calc(50% + 950px);
   bottom: 0;
-  background: linear-gradient(to top, #318483 0px, #318483 122px, #2e616b 122px, #2e616b 186px, #29525e 186px, #29525e 220px, #264653 220px, #264653 100%);
+  background: linear-gradient(to top, #318483 0px, #318483 123px, #2e616b 123px, #2e616b 188px, #29525e 188px, #29525e 221px, #264653 221px, #264653 100%);
 }
 .header-wrapper .background-right {
   z-index: -1;
+  margin-bottom: 16px;
   position: absolute;
   right: 0;
   top: 0;
@@ -322,7 +324,7 @@ body {
   height: 5rem;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   html {
     font-size: 12.5px;
   }
@@ -345,21 +347,6 @@ body {
 @media screen and (max-width: 800px) {
   html {
     font-size: 10px;
-  }
-
-  .content {
-    width: 100%;
-  }
-
-  .header {
-    width: 100%;
-  }
-
-  .header-wrapper .background-left {
-    display: none;
-  }
-  .header-wrapper .background-right {
-    display: none;
   }
 }
 @media screen and (max-width: 550px) {
