@@ -262,6 +262,9 @@ body {
 .content-ubiquitous p:last-child .logo {
   margin: 0 0.4em;
 }
+.content-ubiquitous .part2 {
+  margin-top: 2em;
+}
 
 .content-wrapper:nth-child(2) {
   background-color: #fefefe;
