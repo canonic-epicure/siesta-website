@@ -392,6 +392,14 @@ body {
     height: 19rem;
   }
 
+  .content-split {
+    flex-direction: column;
+  }
+
+  .content-split-reversed {
+    flex-direction: column-reverse;
+  }
+
   .header-logo-full {
     display: none;
   }
