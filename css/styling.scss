@@ -196,39 +196,50 @@ body {
     text-align: center;
     background-color: color.scale($secondary_pass, $lightness: 25%);
 
-    $offset: 3ch;
-
-    & .content-center .get_started_link {
-        span {
+    & .content-center {
+        .logos {
             position: relative;
-            left: -55px;
+            width: 12.5rem;
+            text-align: start;
         }
 
-        img:nth-child(1) {
+        .logo:nth-child(1) {
             position: relative;
             z-index: 100;
+            left: 0;
         }
-        img:nth-child(2) {
+        .logo:nth-child(2) {
             position: absolute;
             z-index: 90;
-            left: $offset;
+            left: 2.5rem;
         }
-        img:nth-child(3) {
+        .logo:nth-child(3) {
             position: absolute;
             z-index: 80;
-            left: $offset * 2;
+            left: 5rem;
         }
-        img:nth-child(4) {
+        .logo:nth-child(4) {
             position: absolute;
             z-index: 70;
-            left: $offset * 3;
+            left: 7.5rem;
         }
     }
 
-    .get_started_link {
-        .logo {
-            min-height: 5rem;
-            min-width: 5rem;
+    .logo {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .content-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & > a {
+            flex : 1;
+            margin: 0.5em 0;
+            font-size: 1.5rem;
+            line-height: 1.5em;
         }
     }
 }
