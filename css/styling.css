@@ -263,12 +263,27 @@ body {
   margin: 0 0.4em;
 }
 
-.content-wrapper-ubiquitous {
+.content-wrapper:nth-child(2) {
   background-color: #fefefe;
 }
 
-.content-wrapper-onetool {
+.content-wrapper:nth-child(3) {
   background-color: #c2efe9;
+}
+
+.content-wrapper:nth-child(4) {
+  background-color: #fefefe;
+}
+.content-wrapper:nth-child(4) .content-split {
+  flex-direction: row-reverse;
+}
+
+.content-wrapper:nth-child(5) {
+  background-color: #bcd6e0;
+}
+
+.content-wrapper:nth-child(6) .content-split {
+  flex-direction: row-reverse;
 }
 
 .content-wrapper-performance {
@@ -397,11 +412,7 @@ body {
   }
 
   .content-split {
-    flex-direction: column;
-  }
-
-  .content-split-reversed {
-    flex-direction: column-reverse;
+    flex-direction: column !important;
   }
 
   .header-logo-full {
