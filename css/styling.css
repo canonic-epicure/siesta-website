@@ -286,6 +286,14 @@ body {
   flex-direction: row-reverse;
 }
 
+.content-wrapper-onetool .content-right {
+  background-image: url("../images/logo/logo_on_transparent.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  flex-basis: auto;
+}
+
 .content-wrapper-getting-started {
   text-align: center;
   background-color: #efd38f;
@@ -418,6 +426,10 @@ body {
 
   .header-logo-mini {
     display: block;
+  }
+
+  .content-wrapper-onetool .content-right {
+    height: 14rem;
   }
 }
 @media screen and (max-width: 450px) {

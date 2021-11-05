@@ -195,10 +195,19 @@ body {
 .content-wrapper:nth-child(5) {
     background-color: color.scale($deccent, $lightness: 75%);
 }
-
 .content-wrapper:nth-child(6) {
     .content-split {
         flex-direction: row-reverse;
+    }
+}
+
+.content-wrapper-onetool {
+    .content-right {
+        background-image: url("../images/logo/logo_on_transparent.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        flex-basis: auto;
     }
 }
 
@@ -360,6 +369,12 @@ body {
     }
     .header-logo-mini {
         display: block;
+    }
+
+    .content-wrapper-onetool {
+        .content-right {
+            height: 14rem;
+        }
     }
 }
 
