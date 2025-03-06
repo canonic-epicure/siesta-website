@@ -1,5 +1,5 @@
 {
-  "name": "@bryntum/siesta",
+  "name": "@siesta/website",
   "version": "6.0.0-alpha-3",
   "description": "Stress-free JavaScript/TypeScript testing and benchmarking tool",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "sass": "npx sass --watch css/"
   },
   "keywords": [],
-  "author": "Nickolay Platonov, Bryntum",
+  "author": "Nickolay Platonov",
   "license": "MIT",
   "engines": {
     "node": ">=12.21.0"
